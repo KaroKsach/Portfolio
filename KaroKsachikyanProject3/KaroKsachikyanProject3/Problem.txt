@@ -1,0 +1,10 @@
+COMP482 - Algorithm Design and Analysis - CSUN
+Project 3 - Egg Drop Problem
+Problem Statement – You have i light bulbs (or any other fragile item) and a tower with n increasing height windows. 
+Assume you want to experimentally determine the highest window where you can safely drop a bulb. You can drop a bulb out of any window. 
+If it breaks, you have one less bulb. If it does not break, you can retrieve the bulb and use it again. There are many possible ways to solve the problem.
+Your goal, for given values of i and n, is to determine the worst case minimum number of drops using 
+DYNAMIC PROGRAMMING.
+
+This program is a solution to the egg drop problem using dynamic programming. It uses a 2d array to store values that
+correspond to the number of drops required to conclude whether an egg will break if dropped from a given height.
